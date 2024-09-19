@@ -88,7 +88,8 @@
     "tenantName": "Tenant Name",
     "tenantReason": "Tenant Reason",
     "toggleCardExpand": "Toggle Expanded",
-    "walletId": "Wallet ID"
+    "walletId": "Wallet ID",
+    "warning": "Warning"
   },
   "configuration": {
     "configuration": "Configuration",
@@ -522,8 +523,13 @@
       "canRegisterDid": "Tenant allowed to register public DID",
       "confirmDeletion": "To confirm, type \"{tenantName}\" in the box below",
       "confirmDeletionIncorrect": "Incorrect tenant name. Please confirm the correct name before deletion.",
-      "confirmDeletionSuccess": "Tenant {0} successfully marked as deleted",
-      "deleteTenant": "Delete Tenant",
+      "confirmDeletionSuccess": "Tenant {0} successfully marked as {1}",
+      "suspended": "suspended",
+      "deleted": "deleted",
+      "deleteTenant": "Suspend Tenant",
+      "permanentDelete": "Permanently Delete",
+      "softDelete": "Suspend Tenant",
+      "tenantDeletionWarning": ": This will delete all data associated with this tenant.",
       "editSettings": "Edit Tenant Config",
       "enableLedgerSwitch": "Tenant can switch endorser/ledger",
       "endorserAlias": "Endorser Alias:",
